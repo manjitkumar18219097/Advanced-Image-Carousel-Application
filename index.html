@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Image Gallery</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQ09RWCH3ppGqcWaEA1BIZ0C6xxalwEsw9c2QQeAIft1+Vegov1nee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="gallery-container">
+    <div class="thumbnails">
+      <img src="Screenshot 2025-11-05 at 1.22.44 PM.png" alt="Thumb 1" class="thumb active">
+      <img src="Screenshot 2025-11-05 at 1.23.00 PM.png" alt="Thumb 2" class="thumb">
+      <img src="Screenshot 2025-11-05 at 1.23.25 PM.png" alt="Thumb 3" class="thumb">
+    </div>
+    <div class="main-image">
+      <button class="nav-btn prev"><i class="fas fa-angle-left"></i></button>
+      <img src="Screenshot 2025-11-05 at 1.22.44 PM.png" alt="Main Product" id="currentImage">
+      <button class="nav-btn next"><i class="fas fa-angle-right"></i></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
